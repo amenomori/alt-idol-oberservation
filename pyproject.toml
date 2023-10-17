@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "alt-idol-oberservation"
+version = "0.1.0"
+description = ""
+authors = ["高雨森 <yusen.gao@mihoyo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+spotipy = "^2.23.0"
+pandas = "^2.1.1"
+tqdm = "^4.66.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
